@@ -1,0 +1,220 @@
+<!-- layouting -->
+<!-- CSS variable -->
+<!-- <head><style>
+        :root {
+        --merah: red;
+        --kuning: orange;
+        --hijau: greenyellow;
+        } h1 {color: var(--merah);}
+        h2 {color: var(--kuning);}
+        h3 {color: var(--hijau);}
+        </style></head><body>
+        <h1>Halo semuanya, apa kabar?</h1>
+        <h2>Halo semuanya, apa kabar?</h2>
+        <h3>Halo semuanya, apa kabar?</h3>
+        </body> -->
+
+<!-- CSS grouping -->
+<!-- <head><style>
+        h1, h2, p {
+        color: blueviolet;
+        font-family: Impact;
+        }
+        </style></head><body>
+        <h1>Contoh Grouping</h1>
+        <h2>Tiga elemen,</h2>
+        <p>Satu style.</p>
+        </body> -->
+
+<!-- descendant selector -->
+        <!-- <head><style>
+                main h2 {
+                color: red;
+                font-family: Impact;
+                }
+                header h2, footer h2 {
+                color: green;
+                font-family: Arial;
+                }
+                </style></head><body>
+                <header><h2>Ini header</h2></header>
+                <main><h2>Ini konten</h2></main>
+                <footer><h2>Ini footer</h2></footer>
+                </body> -->
+
+<!-- child selector -->
+<!-- <head><style>
+        main > p {
+        color: red;
+        font-family: Impact;
+        font-size: 30px
+        }
+        </style></head><body>
+        <main>
+        <p>di dalam main</p>
+        <div>
+        <p>dalam div dalam main</p>
+        </div>
+        </main>
+        </body> -->
+
+<!-- adjacent selector -->
+<!-- <head><style>
+        h1 + p {
+        color: red;
+        font-family: Impact;
+        font-size: 30px
+        }
+        </style></head><body>
+        <h1>Ini header</h1>
+        <p>Ini paragraf 1</p>
+        <p>Ini paragraf 2</p>
+        <p>Ini paragraf 3</p>
+        </body> -->
+        
+
+<!-- pseudo classess links -->
+<!-- <head><style>
+        a:visited {color: purple;}
+        a:link {color: red;}
+        </style></head><body>
+        <a href="#" target="blank">
+        Lihat efek sebelum & sesudah diklik!
+        </a>
+        </body> -->
+
+<!-- pseudo classes hover         -->
+        <!-- <head><style>
+                h1{
+                text-align: center;
+                color: purple;
+                }
+                h1:hover {
+                color: white;
+                background-color: purple;
+                }
+                </style></head><body>
+                <h1>Purwadhika</h1>
+                </body> -->
+
+<!-- pseudo classes Focus  -->
+<!-- <head><style>
+        input:focus {
+        background-color: lightgreen;
+        }
+        </style></head>
+        <body>
+        <div><input type="number"/></div>
+        <br>
+        <div><input type="number"/></div>
+        <br>
+        <div><input type="number"/></div>
+        </body> -->
+
+<!-- pseudo classes active  -->
+<!-- <head><style>
+        input:active {
+        background-color: lightgreen;
+        }
+        </style></head>
+        <body>
+        <div>
+        <input type="submit"/>
+        </div>
+        </body> -->
+
+
+<!-- pseudo element child -->
+
+<!-- pseudo element 1st letter & line -->
+<!-- <head><style>
+        p:first-letter {
+        font-size: 100px;
+        }
+        p:first-line {
+        color: red;
+        font-size: 50px
+        }
+        </style></head><body>
+        <p>Halo semuanya, apa kabar?</p>
+        </body> -->
+
+<!-- solveit1  -->
+<!-- <head><style>
+        .kolom {
+        column-count: 2;
+        column-gap: 25px;
+        }
+        h3{padding-top:10px;}
+    </style>
+    <title>2 kolom</title>
+</head>
+<body>
+    <h3>Layout 2 Kolom</h3>
+    <main class="kolom">
+    <br><h4><b>Kolom 1</b></h4>
+    <p><h6>Setiap hari saya dan kawan xxxxxx xxx xxxx xxxxx xxxxx xxx xxxxxxxxxxxx xxx xxxxxxxxx xxxxxxxxxxx xx kawan pergi ke kota untuk membeli sebuah mainan di toko sebalah.</h6></p>
+    <br><h4><b>Kolom 2<h6>Setiap hari saya dan kawan kawan pergi ke kota untuk membeli sebuah mainan di toko sebalah.</h6>
+    </b></h4>
+    </main>
+</body> -->
+
+<!-- solveit3 -->
+<!-- <html>
+<head>
+<title>satu</title>
+<style>
+body {
+        background-color: rgb(168, 168, 172);
+}
+.konten{
+    background-color: rgb(168, 168, 172);
+    width:200px;
+    height:500px;
+}
+.konten2{
+    background-color: white;
+    position: fixed; top: 0px; left: 200px;
+    width:100vw;
+    height:500vh;
+}
+</style>    
+</head>
+<body> -->
+    
+    <!-- <div class="konten"><center>
+    <img src="barcelona_ratna.gif" width="60" height="60" >
+    <br><br>Link #1<br><br>Link #2<br><br>Link #3</center>
+    </div>
+
+    <div class="konten2"><h2>Sidebar Navigation Layout</h2></div>
+</body>
+</html> -->
+
+
+<html>
+<head>
+<title>satu</title>
+<style>
+.konten1{
+    background-color: black;
+    width:100vw;
+    height:100px;
+}
+.konten2{
+    background-color: black;
+    position: fixed; top: 0px; left: 200px;
+    width:100vw;
+    height:500vh;
+}
+</style>    
+</head>
+<body>
+    
+    <div class="konten1">
+    <h3>Ini Header</h3>
+    </div>
+
+    <div class="konten2"><h2>Sidebar Navigation Layout</h2></div>
+</body>
+</html>
